@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E346B105-179A-4A6A-977E-886DA0D27FFA}|CMCS\\CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212part2\\cmcs\\cmcs\\views\\lecturer\\submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E346B105-179A-4A6A-977E-886DA0D27FFA}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\lecturer\\submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E346B105-179A-4A6A-977E-886DA0D27FFA}|CMCS\\CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212part2\\cmcs\\cmcs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E346B105-179A-4A6A-977E-886DA0D27FFA}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -50,11 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Submit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\Lecturer\\Submit.cshtml",
+              "RelativeDocumentMoniker": "CMCS\\Views\\Lecturer\\Submit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\Lecturer\\Submit.cshtml",
+              "RelativeToolTip": "CMCS\\Views\\Lecturer\\Submit.cshtml",
+              "ViewState": "AgIAABUAAACAMzMzM7MSwEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T12:30:34.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Pending.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\Coordinator\\Pending.cshtml",
               "RelativeDocumentMoniker": "CMCS\\Views\\Coordinator\\Pending.cshtml",
@@ -62,12 +79,11 @@
               "RelativeToolTip": "CMCS\\Views\\Coordinator\\Pending.cshtml",
               "ViewState": "AgIAACMAAABAZmZmZiYgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-21T12:26:01.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T12:26:01.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SupportingDocument.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Models\\SupportingDocument.cs",
               "RelativeDocumentMoniker": "CMCS\\Models\\SupportingDocument.cs",
@@ -75,12 +91,11 @@
               "RelativeToolTip": "CMCS\\Models\\SupportingDocument.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:25:44.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T12:25:44.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ManagerController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Controllers\\ManagerController.cs",
               "RelativeDocumentMoniker": "CMCS\\Controllers\\ManagerController.cs",
@@ -92,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LecturerController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Controllers\\LecturerController.cs",
               "RelativeDocumentMoniker": "CMCS\\Controllers\\LecturerController.cs",
@@ -104,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CoordinatorController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Controllers\\CoordinatorController.cs",
               "RelativeDocumentMoniker": "CMCS\\Controllers\\CoordinatorController.cs",
@@ -116,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CMCS\\Views\\Shared\\_Layout.cshtml",
@@ -129,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CMCS\\Views\\Home\\Index.cshtml",
@@ -142,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ClaimStatus.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Models\\ClaimStatus.cs",
               "RelativeDocumentMoniker": "CMCS\\Models\\ClaimStatus.cs",
@@ -154,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "CMCS\\Views\\Home\\Privacy.cshtml",
@@ -166,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CMCS\\Views\\_ViewImports.cshtml",
