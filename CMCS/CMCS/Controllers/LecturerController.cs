@@ -15,6 +15,8 @@ namespace CMCS.Controllers
 
         [HttpPost, ValidateAntiForgeryToken]
 
+        //action to submit claim 
+
         [HttpPost]
         public async Task<IActionResult> Submit(SubmitClaimVm vm)
         {
@@ -44,6 +46,7 @@ namespace CMCS.Controllers
             }
         }
 
+        //action to track claim
         [HttpGet]
         public async Task<IActionResult> Track(string? searchLecturerId = null)
         {
@@ -59,6 +62,7 @@ namespace CMCS.Controllers
             return View(claims);
         }
 
+        //action to delete claim 
 
         [HttpPost]
         public async Task<IActionResult> Delete(int id)

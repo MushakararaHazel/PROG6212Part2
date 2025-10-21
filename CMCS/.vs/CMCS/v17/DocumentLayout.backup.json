@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E346B105-179A-4A6A-977E-886DA0D27FFA}|CMCS\\CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212part2\\cmcs\\cmcs\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E346B105-179A-4A6A-977E-886DA0D27FFA}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E346B105-179A-4A6A-977E-886DA0D27FFA}|CMCS\\CMCS.csproj|c:\\users\\lab_services_student\\desktop\\prog6212part2\\cmcs\\cmcs\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E346B105-179A-4A6A-977E-886DA0D27FFA}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Controllers\\LecturerController.cs",
+              "RelativeDocumentMoniker": "CMCS\\Controllers\\LecturerController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Controllers\\LecturerController.cs",
+              "RelativeToolTip": "CMCS\\Controllers\\LecturerController.cs",
+              "ViewState": "AgIAAAAAAADAmJmZmZkewEAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:05:11.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CoordinatorController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Controllers\\CoordinatorController.cs",
               "RelativeDocumentMoniker": "CMCS\\Controllers\\CoordinatorController.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "CMCS\\Views\\Home\\Privacy.cshtml",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "CMCS\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-21T12:03:05.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T12:03:05.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CMCS\\Views\\Shared\\_Layout.cshtml",
@@ -64,12 +80,11 @@
               "RelativeToolTip": "CMCS\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAF4AAABAAAAAAAAQwGkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-21T11:53:13.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T11:53:13.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CMCS\\Views\\_ViewImports.cshtml",
