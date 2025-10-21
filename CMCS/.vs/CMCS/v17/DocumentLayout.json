@@ -54,8 +54,7 @@
               "RelativeToolTip": "CMCS\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-21T12:16:15.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T12:16:15.409Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "CMCS\\Models\\ClaimStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:16:12.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T12:16:12.088Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "CMCS\\Controllers\\ManagerController.cs",
               "ViewState": "AgIAACsAAABAzMzMzIwmwCQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:08:25.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T12:08:25.73Z"
             },
             {
               "$type": "Document",
@@ -127,7 +124,7 @@
               "RelativeDocumentMoniker": "CMCS\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6212Part2\\CMCS\\CMCS\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CMCS\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEYAAACAMjMzM7MRwEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAACgzMzMzMwvwDoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-21T11:53:13.695Z",
               "EditorCaption": ""
