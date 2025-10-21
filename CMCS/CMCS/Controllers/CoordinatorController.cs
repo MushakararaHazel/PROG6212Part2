@@ -11,7 +11,7 @@ namespace CMCS.Controllers
     {
             private readonly AppDbContext _db;
             public CoordinatorController(AppDbContext db) => _db = db;
-
+        //the action for pending 
             public async Task<IActionResult> Pending()
             {
                 var claims = await _db.Claims
@@ -24,6 +24,7 @@ namespace CMCS.Controllers
                 return View(claims);
             }
 
+        //the action for approving 
             [HttpPost]
             public async Task<IActionResult> Approve(int id)
             {
@@ -35,7 +36,7 @@ namespace CMCS.Controllers
 
                 return RedirectToAction("Pending");
             }
-
+        //the action for rejecting 
         [HttpPost]
         public async Task<IActionResult> Reject(int id, string reason)
         {
