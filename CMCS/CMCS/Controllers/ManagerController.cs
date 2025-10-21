@@ -20,7 +20,7 @@ namespace CMCS.Controllers
 
             return View(claims);
         }
-
+        //action to approve the pay 
         [HttpPost]
         public async Task<IActionResult> ApproveAndPay(int id)
         {
@@ -34,6 +34,7 @@ namespace CMCS.Controllers
             return RedirectToAction("Approved");
         }
 
+        //action to reject 
         [HttpPost]
         public async Task<IActionResult> Reject(int id, string reason)
         {
