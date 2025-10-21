@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\Cloud Sem2\\CMCS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E346B105-179A-4A6A-977E-886DA0D27FFA}|CMCS\\CMCS.csproj|c:\\users\\lab_services_student\\desktop\\cloud sem2\\cmcs\\cmcs\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E346B105-179A-4A6A-977E-886DA0D27FFA}|CMCS\\CMCS.csproj|solutionrelative:cmcs\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\Cloud Sem2\\CMCS\\CMCS\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CMCS\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\Cloud Sem2\\CMCS\\CMCS\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CMCS\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T11:27:13.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

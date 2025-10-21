@@ -1,0 +1,77 @@
+﻿@model List<CMCS.Models.Claim>
+@{
+    ViewData["Title"] = "Verify Claims";
+}
+
+<div class="card p-4 bg-white shadow-sm">
+    <h2 class="text-center fw-bold mb-4" style="color:#0d6efd;">Pending Claims for Verification</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-success text-center">
+            🎉 All claims have been reviewed. No pending approvals.
+        </div>
+    }
+    else
+    {
+        <table class="table table-striped align-middle text-center">
+            <thead class="table-primary">
+                <tr>
+                    <th>LecturerName</th>
+                    <th>LecturerId</th>
+                    <th>Month</th>
+                    <th>Hours</th>
+                    <th>Rate</th>
+                    <th>Total</th>
+                    <th>Notes</th>
+                    <th>Evidence</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in Model)
+                {
+                    <tr>
+
+                        <td>@c.LecturerName</td>
+                        <td>@c.LecturerId</td>
+                        <td>@c.Month.ToString("yyyy-MM")</td>
+                        <td>@c.HoursWorked</td>
+                        <td>@c.HourlyRate</td>
+                        <td>@(c.HoursWorked* c.HourlyRate)</td>
+                        <td>@c.Notes</td>
+                        <td>
+                            @if (c.Documents?.Any() == true)
+                            {
+                                foreach (var d in c.Documents)
+                                {
+                                    <a asp-controller="Files" asp-action="Get" asp-route-id="@d.Id">@d.FileName</a>
+                    
+                                    <br />
+                                }
+                            }
+                            else
+                            {
+                                <span class="text-muted">—</span>
+                            }
+                        </td>
+                        <td>
+                            <form asp-action="Approve" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@c.Id" />
+                                <button class="btn btn-outline-primary btn-sm mb-1">
+                                    <i class="bi bi-check-circle"></i> Approve
+                                </button>
+                            </form>
+                            <form asp-action="Reject" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@c.Id" />
+                                <button class="btn btn-outline-danger btn-sm">
+                                    <i class="bi bi-x-circle"></i> Reject
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

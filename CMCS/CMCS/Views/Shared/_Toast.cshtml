@@ -1,0 +1,10 @@
+﻿@{
+    var msg = TempData["Toast"] as string;
+}
+@if (!string.IsNullOrWhiteSpace(msg))
+{
+    <div style="position:fixed;top:1rem;right:1rem;padding:.6rem 1rem;background:#0d6efd;color:#fff;border-radius:.5rem;z-index:9999;">
+        @msg
+    </div>
+}
+

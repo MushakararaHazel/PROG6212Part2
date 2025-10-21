@@ -1,0 +1,109 @@
+﻿@model List<CMCS.Models.Claim>
+@{
+    ViewData["Title"] = "Track Claims";
+}
+
+<div class="card p-4 bg-white shadow-sm">
+    <h2 class="text-center fw-bold mb-4" style="color:#0d6efd;">
+        <i class="bi bi-clock-history"></i> My Submitted Claims
+    </h2>
+
+  
+    <form method="get" asp-action="Track" class="d-flex justify-content-end mb-3">
+        <input type="text"
+               name="searchLecturerId"
+               value="@Context.Request.Query["searchLecturerId"]"
+               class="form-control w-25 me-2"
+               placeholder="Search by Lecturer ID" />
+
+        <button type="submit" class="btn btn-outline-primary me-2">
+            <i class="bi bi-search"></i> Search
+        </button>
+
+        <a asp-action="Track" class="btn btn-outline-secondary">
+            <i class="bi bi-x-circle"></i> Clear
+        </a>
+    </form>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">
+            No matching claims found.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped align-middle text-center">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Month</th>
+                        <th>Hours Worked</th>
+                        <th>Hourly Rate</th>
+                        <th>Lecturer Name</th>
+                        <th>Lecturer ID</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                        <th>Notes</th>
+                        <th>Documents</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var c in Model)
+                    {
+                        <tr>
+                            <td>@c.Month.ToString("yyyy-MM")</td>
+                            <td>@c.HoursWorked.ToString("N2")</td>
+                            <td>@c.HourlyRate.ToString("N2")</td>
+                            <td>@c.LecturerName</td>
+                            <td>@c.LecturerId</td>
+                            <td>@((c.HoursWorked * c.HourlyRate).ToString("N2"))</td>
+                            <td>
+                                @if (c.Status == CMCS.Models.ClaimStatus.Approved)
+                                {
+                                    <span class="badge bg-success">Approved</span>
+                                }
+                                else if (c.Status == CMCS.Models.ClaimStatus.Rejected)
+                                {
+                                    <span class="badge bg-danger">Rejected</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning text-dark">Pending</span>
+                                }
+                            </td>
+                            <td>@(string.IsNullOrWhiteSpace(c.Notes) ? "—" : c.Notes)</td>
+                            <td>
+                                @if (c.Documents?.Any() == true)
+                                {
+                                    foreach (var d in c.Documents)
+                                    {
+                                        <a asp-controller="Files" asp-action="Get" asp-route-id="@d.Id"
+                                           class="text-primary text-decoration-none" target="_blank">
+                                            @d.FileName
+                                        </a>
+                                        <br />
+                                    }
+                                }
+                                else
+                                {
+                                    <span class="text-muted">—</span>
+                                }
+                            </td>
+                            <td>
+                                <form asp-action="Delete" asp-route-id="@c.Id" method="post" class="d-inline">
+                                    <button type="submit"
+                                            class="btn btn-sm btn-outline-danger"
+                                            onclick="return confirm('Are you sure you want to delete this claim?');">
+                                        <i class="bi bi-trash"></i> Delete
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
